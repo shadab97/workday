@@ -1,5 +1,14 @@
+.filterContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .container {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.jobCard {
+  border: 1px solid gray;
 }
